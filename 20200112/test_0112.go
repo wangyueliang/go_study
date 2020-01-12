@@ -2,6 +2,7 @@
 
 import "fmt"
 import "log"
+import "time"
 
 
 /*
@@ -33,22 +34,44 @@ func test_2(){
 
 
 func test_1(){
-	log.Println("test_1")
+	log.Println("http://tour.studygolang.com/welcome/1 go 中国")
 	
 	
 	
 }
 
+func test_3(){
+	
+	
+}
 
-
-
+//  go run  test_0112.go bingfa.go  编译
 func  main(){
 
    fmt.Println("main")
    test_1()
    test_2()
-   
+   test_3()
+   //bingfa()//go 并发编程实例解析 日志监控系统
+  //go channel_select_test()
+  
+  go channel_routine_test()
+	
+
+	time.Sleep(4 * time.Second) // add done wait 等待routine 运行完成
+
+// reader writer 
+//  go tool tour //http://docscn.studygolang.com/doc
+
+//go 并发编程实战 例子
+//goc2p ds pds  现实文件目录的文件
+//项目地址 http://github.com/hyper-carrot/goc2p
+
+// devops  自动化部署到阿里云
+// http://github.com/avenssi/newweb
 
 
+// flag.parse 记得调用 新需求尽量用 json //有良知的知识分子  老罗
+ 	
 }
 
