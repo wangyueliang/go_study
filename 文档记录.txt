@@ -19,6 +19,16 @@ wangxue@gitv.cn
 wangxue426@163.com
 
 
+// go 中文网
+// Go 系列教程 —— 23. 缓冲信道和工作池（Buffered Channels and Worker Pools）
+// 接口 管道  缓冲管道工作池 锁  结构体继承多态  panic&recover  defer() refelect
+// bytes 包   sync.Map   tcp server listen  connectfd(goroutinue)
+
+go mod init go_study
+go run  main.go
+
+
+
 
 
 ##########################2020 01 12 ###################################
